@@ -43,16 +43,16 @@ To ensure transparency across project deliverables, note the following data scop
 
 ## 5. Project Structure
 /
-├── etl/
-│   └── etl_pipeline.py       # Data cleaning & feature engineering
-├── analysis/
-│   └── analysis.py          # ML Model, Visuals, & Financial Projections
-├── data/
-│   ├── dim_users_enriched.csv
-│   ├── fact_user_weekly.csv
-│   └── model_churn_dataset.csv
+├── etl/  
+│   └── etl_pipeline.py       # Data cleaning & feature engineering  
+├── analysis/  
+│   └── analysis.py          # ML Model, Visuals, & Financial Projections  
+├── data/  
+│   ├── dim_users_enriched.csv  
+│   ├── fact_user_weekly.csv  
+│   └── model_churn_dataset.csv  
 ├── dashboard/
-│   ├── Churn_Dashboard.twbx  # Interactive Production Views
-│   └── dashboard_screenshots/# Automated PNG exports from Python
-└── final_story/
-    └── final_deck.pdf        # Strategic Business Case & Recommendations
+│   ├── Churn_Dashboard.twbx  # Interactive Production Views  
+│   └── dashboard_screenshots/# Automated PNG exports from Python  
+└── final_story/  
+    └── final_deck.pdf        # Strategic Business Case & Recommendations  
